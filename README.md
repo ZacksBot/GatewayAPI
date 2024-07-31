@@ -1,3 +1,7 @@
+# Testing
+
+[![Pytest](https://github.com/ZacksBot/Gateway/actions/workflows/AppTest.yml/badge.svg)](https://github.com/ZacksBot/Gateway/actions/workflows/AppTest.yml)
+
 # Vulnerabilities API Gateway
 
 This is a simple API gateway built using Flask. It fetches vulnerability data from the Silobreaker API converts it into a more readable gateway and and provides it in either CSV or JSON format.
@@ -7,8 +11,8 @@ This is a simple API gateway built using Flask. It fetches vulnerability data fr
 1. **Clone the repository**:
 
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-folder>
+    git clone https://github.com/ZacksBot/Gateway.git
+    cd Gateway
     ```
 
 2. **Build the Docker image**:
